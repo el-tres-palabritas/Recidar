@@ -1,0 +1,33 @@
+@use "@angular/material" as mat;
+$gdv-font: ['Rubik', 'Mulish', 'sans-serif'];
+
+:root {
+  @include mat.form-field-overrides((
+    outlined-input-text-color: #212529,
+    outlined-input-text-placeholder-color: rgba(33, 37, 41, 0.5),
+    outlined-outline-color: #212529,
+    outlined-hover-outline-color: rgba(255, 171, 243, 1),
+    outlined-outline-width: 2px,
+    container-text-font: $gdv-font,
+    outlined-label-text-color: #212529,
+    outlined-label-text-font: $gdv-font,
+  ));
+  @include mat.select-overrides((
+    trigger-text-font: $gdv-font,
+    enabled-trigger-text-color: #212529
+  ))
+}
+
+html, body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  color-scheme: light ;
+}
+
+body {
+  margin: 0;
+  font-family: Rubik, Mulish, sans-serif;
+}
+
+
