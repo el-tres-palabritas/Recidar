@@ -1,0 +1,22 @@
+{
+  "Home": "Home",
+  "Donate": "Donate",
+  "Home-Title": "Recidar: Fighting Cold with Kindness",
+  "Home-Section": "Active Campaigns",
+  "Home-StartDate": "Start Date",
+  "Home-EndDate": "End Date",
+  "Home-ClothesCollected": "Clothes to collect",
+  "Donate-Title": "Support with a donation",
+  "Donate-FirstInput": "Donor ID",
+  "Donate-FirstPH": "Ex: 1",
+  "Donate-FirstHint": "Number from 1 to 7",
+  "Donate-SecondInput": "Select Campaign",
+  "Donate-ThirdInput": "Select item of clothing",
+  "Donate-FourthInput": "Amount",
+  "Donate-SecondPH": "Ex: 5",
+  "Donate-FifthInput": "Condition",
+  "Donate-SecondHint": "Clothing Condition",
+  "Donate-Button": "Donate",
+  "Not-Found": "Page not found",
+  "Not-Found-Message": "Couldn't find direction: "
+}

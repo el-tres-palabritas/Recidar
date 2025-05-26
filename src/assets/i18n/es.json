@@ -1,0 +1,22 @@
+{
+  "Home": "Inicio",
+  "Donate": "Donar",
+  "Home-Title": "Recidar: Luchando contra el Frío con Amabilidad",
+  "Home-Section": "Campañas Activas",
+  "Home-StartDate": "Fecha de Inicio",
+  "Home-EndDate": "Fecha de Fin",
+  "Home-ClothesCollected": "Ropa a recoger",
+  "Donate-Title": "Apoyar con una donación",
+  "Donate-FirstInput": "ID del Donante",
+  "Donate-FirstPH": "Ej: 1",
+  "Donate-FirstHint": "Número del 1 al 7",
+  "Donate-SecondInput": "Seleccionar Campaña",
+  "Donate-ThirdInput": "Seleccionar prenda",
+  "Donate-FourthInput": "Cantidad",
+  "Donate-SecondPH": "Ej: 5",
+  "Donate-FifthInput": "Condición",
+  "Donate-SecondHint": "Condición de prendas",
+  "Donate-Button": "Donar",
+  "Not-Found": "Ruta inexistente",
+  "Not-Found-Message": "No pudimos encontrar la dirección: "
+}
