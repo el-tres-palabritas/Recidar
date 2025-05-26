@@ -1,0 +1,57 @@
+.donation-form-container {
+  display: grid;
+  place-items: center;
+}
+
+.donation-form {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 650px;
+  padding: 25px;
+  border-radius: 8px;
+  border: solid 2px #212529;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.55);
+  background: #fff;
+}
+
+.donation-form-hint {
+  color: #212529;
+}
+#donation-donor-form-field {
+  width: 160px;
+}
+
+#donation-campaign-form-field {
+  width: 430px;
+}
+
+#donation-clothing-form-field {
+  width: 240px;
+}
+
+#donation-amount-form-field {
+  width: 130px;
+}
+
+#donation-condition-form-field {
+  width: 180px;
+}
+
+.donation-form-option, .donation-form-hint{
+  font-family: Rubik, Mulish, sans-serif;
+}
+
+button {
+  padding: 4px;
+  border-radius: 8px;
+  border: solid 2px #212529;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.55);
+  background: #fff;
+  color: #212529 !important;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Rubik, Mulish, sans-serif;
+}
