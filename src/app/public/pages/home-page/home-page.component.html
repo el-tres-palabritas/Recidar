@@ -1,0 +1,22 @@
+<h2 style="text-align: center; margin: 0; padding-top: 50px">{{ 'Home-Title' | translate}}</h2>
+<h3 style="padding-left: 50px;">{{'Home-Section' | translate}}</h3>
+<div class="grid-list-container">
+  <mat-grid-list cols="2" rowHeight="275px" gutterSize="50px">
+    <mat-grid-tile *ngFor="let campaign of campaigns" class="campaign-card" aria-label="Campaign Card">
+      <mat-grid-tile-header aria-label="Campaign Card Header">
+        <mat-card-title-group>
+          <mat-card-title>{{campaign.name}}, {{campaign.location}}</mat-card-title>
+        </mat-card-title-group>
+      </mat-grid-tile-header>
+      <mat-card-content>
+        <p class="card-content"><strong>{{ 'Home-StartDate' | translate}}:</strong> {{campaign.startDate}}</p>
+        <p class="card-content"> <strong>{{ 'Home-EndDate' | translate}}:</strong> {{campaign.endDate}}</p>
+        <p class="card-content"><strong>{{ 'Home-ClothesCollected' | translate}}:</strong> {{campaign.targetItems}}</p>
+      </mat-card-content>
+      <mat-grid-tile-footer>
+        <p><strong>Units collected:</strong> {{campaign.collectedUnits}}/1450</p>
+      </mat-grid-tile-footer>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+

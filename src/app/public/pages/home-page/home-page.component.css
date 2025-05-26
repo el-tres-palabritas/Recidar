@@ -1,0 +1,21 @@
+.campaign-card {
+  background: #FFABF3;
+  border-radius: 8px;
+  border: 2px solid #212529;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.55);
+}
+
+.grid-list-container {
+  padding: 0 50px 50px;
+  display: grid;
+  place-items: center;
+}
+
+.card-content {
+  color: black;
+  text-align: center;
+}
+
+mat-grid-list {
+  width: 750px;
+}

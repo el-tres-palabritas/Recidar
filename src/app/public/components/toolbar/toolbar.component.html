@@ -1,0 +1,13 @@
+<mat-toolbar color="primary" class="toolbar">
+  <a href="/home">
+    <img src="assets/logo.dev.png" alt="Recidar Logo" width="50" height="50">
+  </a>
+  <div tabindex="0" class="options-container">
+    <a mat-button routerLink="/home" class="header-option">{{ 'Home' | translate }}</a>
+    <a mat-button routerLink="/engagement/donations/new" class="header-option">{{ 'Donate' | translate }}</a>
+  </div>
+    <mat-button-toggle-group tabindex="0" [value]="currentLang" (change)="switchLanguage($event.value)" appearance="legacy" color="primary" class="lang-switcher">
+        <mat-button-toggle value="es" style="font-size: 18px">ES</mat-button-toggle>
+        <mat-button-toggle value="en" style="font-size: 18px">EN</mat-button-toggle>
+    </mat-button-toggle-group>
+</mat-toolbar>

@@ -1,0 +1,36 @@
+.toolbar {
+  background: #FFABF3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.lang-switcher {
+  padding: 4px;
+  border-radius: 8px;
+  border: solid 2px #212529;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.55);
+  background: #fff;
+  color: #212529;
+  font-family: Rubik, Mulish, sans-serif;
+}
+
+.header-option {
+  color: #212529 !important;
+  transition: color 0.3s ease;
+  font-family: Rubik, Mulish, sans-serif;
+  font-size: 18px;
+}
+.header-option:focus {
+  outline: 1px solid black;
+  outline-offset: 0;
+  border: 2px solid white;
+}
+
+.header-option:hover {
+  color: white !important;
+}
