@@ -1,0 +1,273 @@
+{
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "Keep Warm Keep Well",
+      "location": "Peru-Lima-SanMiguel",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-07",
+      "targetItems": [
+        "Jackets",
+        "Blankets"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Keep Warm Keep Well",
+      "location": "Peru-Lima-SanMiguel",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-07",
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Keep Warm Keep Well",
+      "location": "Peru-Lima-SanIsidro",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-07",
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Keep Warm Keep Well",
+      "location": "Peru-Lima-SanIsidro",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-07",
+      "targetItems": [
+        "Jackets",
+        "Blankets"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Keep Warm Keep Well",
+      "location": "Peru-Lima-Monterrico",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-07",
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Keep Warm Keep Well",
+      "location": "Peru-Lima-Monterrico",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-07",
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Keep Warm Keep Well",
+      "location": "Peru-Lima-SanMiguel",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-07",
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants",
+        "Shoes"
+      ]
+    }
+  ],
+  "donors": [
+    {
+      "id": 1,
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "contact": [
+        "juanp@email.com",
+        "519674244450"
+      ],
+      "totalDonations": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Pedro",
+      "lastName": "García",
+      "contact": [
+        "pedrog@email.com",
+        "519674264450"
+      ],
+      "totalDonations": 4
+    },
+    {
+      "id": 3,
+      "firstName": "María",
+      "lastName": "Cuellar",
+      "contact": [
+        "mariac@email.com",
+        "519674734450"
+      ],
+      "totalDonations": 7
+    },
+    {
+      "id": 4,
+      "firstName": "Miriam",
+      "lastName": "Ruiz",
+      "contact": [
+        "miriamr@email.com",
+        "519674284450"
+      ],
+      "totalDonations": 4
+    },
+    {
+      "id": 5,
+      "firstName": "Luis",
+      "lastName": "Fernadez",
+      "contact": [
+        "luisf@email.com",
+        "519674237450"
+      ],
+      "totalDonations": 6
+    },
+    {
+      "id": 6,
+      "firstName": "Pedro",
+      "lastName": "Alcazar",
+      "contact": [
+        "pedroa@email.com",
+        "519774234450"
+      ],
+      "totalDonations": 9
+    },
+    {
+      "id": 7,
+      "firstName": "Mario",
+      "lastName": "Trelles",
+      "contact": [
+        "mariot@email.com",
+        "519674239450"
+      ],
+      "totalDonations": 12
+    }
+  ],
+  "donations": [
+    {
+      "id": 1,
+      "donorId": 1,
+      "campaignId": 1,
+      "itemType": "Jacket",
+      "quantity": 6,
+      "condition": "New"
+    },
+    {
+      "id": 2,
+      "donorId": 2,
+      "campaignId": 2,
+      "itemType": "Pants",
+      "quantity": 3,
+      "condition": "New"
+    },
+    {
+      "id": 3,
+      "donorId": 3,
+      "campaignId": 3,
+      "itemType": "Blankets",
+      "quantity": 2,
+      "condition": "New"
+    },
+    {
+      "id": 4,
+      "donorId": 4,
+      "campaignId": 4,
+      "itemType": "Jacket",
+      "quantity": 12,
+      "condition": "New"
+    },
+    {
+      "id": 5,
+      "donorId": 5,
+      "campaignId": 5,
+      "itemType": "Blankets",
+      "quantity": 14,
+      "condition": "New"
+    },
+    {
+      "id": 6,
+      "donorId": 6,
+      "campaignId": 6,
+      "itemType": "Jacket",
+      "quantity": 94,
+      "condition": "New"
+    },
+    {
+      "id": 7,
+      "donorId": 1,
+      "campaignId": 7,
+      "itemType": "Pants",
+      "quantity": 51,
+      "condition": "New"
+    },
+    {
+      "donorId": 1,
+      "campaignId": 3,
+      "itemType": "Jackets",
+      "quantity": 28,
+      "condition": "New",
+      "id": 8
+    },
+    {
+      "donorId": 4,
+      "campaignId": 5,
+      "itemType": "Blankets",
+      "quantity": 2,
+      "condition": "Used",
+      "id": 9
+    },
+    {
+      "donorId": 5,
+      "campaignId": 1,
+      "itemType": "Blankets",
+      "quantity": 5,
+      "condition": "Used",
+      "id": 10
+    },
+    {
+      "donorId": 3,
+      "campaignId": 1,
+      "itemType": "Blankets",
+      "quantity": 3,
+      "condition": "New",
+      "id": 11
+    },
+    {
+      "donorId": 6,
+      "campaignId": 6,
+      "itemType": "Pants",
+      "quantity": 6,
+      "condition": "Used",
+      "id": 12
+    },
+    {
+      "donorId": 4,
+      "campaignId": 4,
+      "itemType": "Jackets",
+      "quantity": 4,
+      "condition": "Used",
+      "id": 13
+    },
+    {
+      "donorId": 4,
+      "campaignId": 4,
+      "itemType": "Blankets",
+      "quantity": 4,
+      "condition": "Used",
+      "id": 14
+    }
+  ]
+}
