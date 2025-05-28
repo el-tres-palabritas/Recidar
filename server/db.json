@@ -212,62 +212,6 @@
       "itemType": "Pants",
       "quantity": 51,
       "condition": "New"
-    },
-    {
-      "donorId": 1,
-      "campaignId": 3,
-      "itemType": "Jackets",
-      "quantity": 28,
-      "condition": "New",
-      "id": 8
-    },
-    {
-      "donorId": 4,
-      "campaignId": 5,
-      "itemType": "Blankets",
-      "quantity": 2,
-      "condition": "Used",
-      "id": 9
-    },
-    {
-      "donorId": 5,
-      "campaignId": 1,
-      "itemType": "Blankets",
-      "quantity": 5,
-      "condition": "Used",
-      "id": 10
-    },
-    {
-      "donorId": 3,
-      "campaignId": 1,
-      "itemType": "Blankets",
-      "quantity": 3,
-      "condition": "New",
-      "id": 11
-    },
-    {
-      "donorId": 6,
-      "campaignId": 6,
-      "itemType": "Pants",
-      "quantity": 6,
-      "condition": "Used",
-      "id": 12
-    },
-    {
-      "donorId": 4,
-      "campaignId": 4,
-      "itemType": "Jackets",
-      "quantity": 4,
-      "condition": "Used",
-      "id": 13
-    },
-    {
-      "donorId": 4,
-      "campaignId": 4,
-      "itemType": "Blankets",
-      "quantity": 4,
-      "condition": "Used",
-      "id": 14
     }
   ]
 }

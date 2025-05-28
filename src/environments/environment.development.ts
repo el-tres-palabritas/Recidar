@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  serverBasePath: 'http://localhost:3000'
+  serverBasePath: 'https://recidar-fake-api-1.onrender.com/api/v1'
 };

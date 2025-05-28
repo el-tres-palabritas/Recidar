@@ -1,3 +1,3 @@
 export const environment = {
-  serverBasePath: undefined,
+  serverBasePath: 'https://recidar-fake-api-1.onrender.com/api/v1',
 };
