@@ -20,7 +20,7 @@ export class DonationFormComponent implements OnInit {
   @Input() campaigns: Array<Campaign> = [];
   selectedItems?: Array<string> = [];
   donationForm: FormGroup = new FormGroup({
-    id: new FormControl(0, [Validators.required, Validators.min(1), Validators.max(7)]),
+    id: new FormControl(0),
     campaign: new FormControl(0, [Validators.required]),
     type: new FormControl('', [Validators.required]),
     quantity: new FormControl(0, [Validators.required, Validators.min(1)]),
@@ -30,9 +30,13 @@ export class DonationFormComponent implements OnInit {
   constructor(private donationService: DonationService, private thanksDialog: MatDialog) { }
 
   onSubmit() {
+    // Add validators for 'id' field to confirm all objects are loaded
+    this.donationForm.get('id')?.setValidators([Validators.required, Validators.min(1), Validators.max(this.donors.length)]);
+    this.donationForm.get('id')?.updateValueAndValidity();
     if (this.donationForm.invalid) {
       this.donationForm.markAllAsTouched();
       console.log('Invalid Form');
+      console.log(this.donors.length);
       return;
     }
     this.donationService.create({
